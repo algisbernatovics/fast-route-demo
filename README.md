@@ -2,15 +2,15 @@
 
 A compact PHP routing demo built around `nikic/fast-route` and controller classes.
 
-## Overview
+## Learning Goal
 
-A compact PHP routing demo built around `nikic/fast-route` and controller classes.
+Practice framework-light routing and front-controller flow before using a larger framework such as Laravel.
 
 ## Features
 
 - Defines HTTP routes through FastRoute.
 - Uses controller classes for request handling.
-- Includes a preview image inside the demo folder.
+- Keeps routing, controller code, and the entry point easy to inspect.
 
 ## Tech Stack
 
@@ -18,15 +18,7 @@ A compact PHP routing demo built around `nikic/fast-route` and controller classe
 - Composer
 - nikic/fast-route
 
-## Project Structure
-
-- `router/index.php` - front controller and router setup
-- `router/app/Controller/` - controller classes
-- `router/README.md` - original demo notes
-
-## Getting Started
-
-From the router folder, install dependencies and run locally:
+## Run
 
 ```bash
 cd router
@@ -34,11 +26,14 @@ composer install
 php -S localhost:8000 index.php
 ```
 
-## Portfolio Notes
+Open `http://localhost:8000` in the browser.
 
-- Demonstrates framework-light PHP routing.
-- Useful for showing understanding of front-controller flow.
+## Project Structure
 
-## Status
+- `router/index.php` - front controller and router setup
+- `router/app/Controller/` - controller classes
+- `router/preview.png` - visual preview from the original exercise
 
-Portfolio-ready PHP routing demo.
+## License
+
+MIT License. See [LICENSE](./LICENSE).
